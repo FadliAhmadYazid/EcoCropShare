@@ -105,7 +105,7 @@ const DashboardPage: React.FC = () => {
               <Link to="/requests/create">
                 <Button 
                   variant="outline"
-                  className="border-white text-white hover:bg-white hover:text-black transition-colors duration-300"
+                  className="border-white text-white hover:bg-white hover:!text-black transition-colors duration-300"
                 >
                   Buat Permintaan
                 </Button>
@@ -442,7 +442,7 @@ const DashboardPage: React.FC = () => {
           </div>
           <div className="flex-shrink-0">
             <Link to="/articles">
-            <Button className="bg-white text-black hover:bg-gray-100 shadow-sm">
+            <Button className="bg-white !text-black hover:bg-gray-100 shadow-sm">
              Jelajahi Artikel
             </Button>
 
